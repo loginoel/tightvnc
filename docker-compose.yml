@@ -1,0 +1,10 @@
+version: '2'
+services:
+
+  vncserver:
+    build:
+      context: ./docker/vncserver/
+    ports:
+      - "5901:5901"
+      - "5902:5902"
+      - "6080:6080"
