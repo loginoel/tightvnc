@@ -19,7 +19,7 @@ Running in Firefox before and after connecting:
 Run Container
 
 ```bash
-docker run -ti --privileged -p 5902:5902 -p 6080:6080 -d punkerside/tightvnc
+docker run -p 5902:5902 -p 6080:6080 -d punkerside/tightvnc
 ```
 
 Url:
